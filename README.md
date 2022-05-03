@@ -5,11 +5,10 @@ Build a static app with authentication that is backed by a database, change the 
 ## Technologies
 ### Frontend ([Next.js](https://nextjs.org/) & [Tailwind CSS](https://tailwindcss.com/))
 
-![image] 
-### Backend and authentication
+![image](https://github.com/PAVincius/Build-a-SaaS-product/blob/main/Frontend.png)
+### Backend and authentication ([Supabase](https://supabase.com/) & [Stripe](https://stripe.com/br))
 
-- Supabase
-- Stripe
+![image](https://github.com/PAVincius/Build-a-SaaS-product/blob/main/Backend.png)
 
 # What you'll learn:
 
