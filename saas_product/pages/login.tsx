@@ -1,4 +1,3 @@
-import { useEffect } from "react";
 import { supabase } from '../public/utils/supabase'
 
 const LoginPage = () => {

@@ -14,7 +14,7 @@ const handler = async (req, res) => {
  });
 
  await supabase.from('profile').update({
-     stripe_customer: customer.id
+     stripe_customer: customer.id,
  }).eq('id', req.body.record.id);
 
  res.send({ message: `striper customer created: ${customer.id}` });
