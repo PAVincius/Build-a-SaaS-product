@@ -18,11 +18,11 @@ const LogoutPage = () => {
                     <div className="rounded-xl bg-white shadow-xl">
                         <div className="p-6 sm:p-16">
                             <div className="space-y-4">
-                                <h2 className="mb-8 text-2xl text-cyan-900 font-bold">Login.</h2>
+                                <h2 className="mb-8 text-2xl text-cyan-900 font-bold">Logout.</h2>
                             </div>
                             <div className="mt-16 grid space-y-4">
-                            <button onClick={Logout} type="button" className="text-white bg-[#24292F] hover:bg-[#24292F]/90 focus:ring-4 focus:outline-none focus:ring-[#24292F]/50 font-medium rounded-lg text-sm px-5 py-2.5 text-center inline-flex items-center dark:focus:ring-gray-600 dark:hover:bg-[#050708]/30 mr-2 mb-2">
-                                LogOut
+                            <button onClick={Logout} type="button" className="text-white bg-[#24292F] hover:scale-105 hover:shadow-2xl transform transition-all duration-500 font-medium rounded-lg text-sm px-5 py-2.5 text-center inline-flex items-center mr-2 mb-2">
+                                Logout
                             </button>   
                             </div>
                         </div>
