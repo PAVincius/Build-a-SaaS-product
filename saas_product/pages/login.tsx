@@ -1,12 +1,12 @@
 import { supabase } from '../public/utils/supabase';
 import { useEffect } from "react";
+import { useUser } from '../context/user';
 
 const LoginPage = () => {
+    const { login } = useUser();
 
     function Login(){
-            supabase.auth.signIn({
-              provider: "github",
-            });
+           useEffect(login, []);
           }
     return(
         <div className="relative flex min-h-screen flex-col justify-center bg-gradient-to-r from-rose-100 to-teal-100">
