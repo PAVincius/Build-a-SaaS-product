@@ -3,11 +3,13 @@ import { useEffect } from "react";
 import { useUser } from '../context/user';
 
 const LoginPage = () => {
-    const { login } = useUser();
 
-    function Login(){
-           useEffect(login, []);
-          }
+    const Login = () => {
+        const { login } = useUser();
+      
+        useEffect(login, []);
+      };
+
     return(
         <div className="relative flex min-h-screen flex-col justify-center bg-gradient-to-r from-rose-100 to-teal-100">
             <div className="relative container m-auto px-6 text-gray-500 md:px-12 xl:px-40">
