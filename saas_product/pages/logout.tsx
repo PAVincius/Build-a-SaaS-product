@@ -3,11 +3,11 @@ import { useEffect } from "react";
 import { useUser } from '../context/user';
 
 const LogoutPage = () => {
-    const { logout } = useUser();
-
-    function Logout(){
-           useEffect(logout, []);
-    }
+    const Logout = () => {
+        const { logout } = useUser();
+      
+        useEffect(logout, []);
+      };
 
     return(
         <div className="relative flex min-h-screen flex-col justify-center bg-gradient-to-r from-rose-100 to-teal-100">
